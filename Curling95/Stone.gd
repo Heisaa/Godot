@@ -27,8 +27,8 @@ func _physics_process(delta):
 	velocity.x = direction.x
 	velocity.z = direction.z
 	
-	
 	velocity = move_and_slide(velocity, Vector3(0, 1, 0))
+	print(velocity)
 	
 	var hitCount = get_slide_count()
 	if hitCount > 0:

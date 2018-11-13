@@ -1,4 +1,4 @@
-extends RigidBody
+extends Node2D
 
 # class member variables go here, for example:
 # var a = 2
@@ -10,4 +10,8 @@ func _ready():
 	pass
 
 func _process(delta):
-	CollisionObject
+	print()
+	pass
+
+#func _draw():
+#
